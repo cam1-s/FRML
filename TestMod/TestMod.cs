@@ -4,6 +4,8 @@ using System;
 public class TestMod {
 	public static void Init() {
 		// Texture override example
+		// This replaces Garfield's specular texture with a white image, making him very shiny
+		// Please note white.png must exist in the game's root directory
 		ModLoader.Texture("C_Garfield_S", "white.png");
 
 		// Register callbacks
